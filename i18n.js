@@ -43,101 +43,71 @@ const i18n = {
     "lang": userLang,
     // quiz.html
     "quiz-loading": {
-        "de": "Laden…",
+        "de": "Bekleyiniz...",
         "ko": "로딩중...",
         "ru": "Загрузка..."
     },
     "quiz-strongly-agree": {
         "en": "Strongly Agree",
-        "de": "Stimme voll zu",
-        "ko": "매우 동의",
-        "ru": "Полностью согласен"
+        "de": "Kesinlikle Katılıyorum",
     },
     "quiz-agree": {
         "en": "Agree",
-        "de": "Stimme zu",
-        "ko": "동의",
-        "ru": "Скорее согласен"
+        "de": "Biraz Katılıyorum",
     },
     "quiz-neutral": {
         "en": "Neutral/Unsure",
-        "de": "Neutral/Unsicher",
-        "ko": "중립/잘 모름",
-        "ru": "Не знаю/Не уверен"
+        "de": "Tarafsız/Kararsızım",
     },
     "quiz-disagree": {
         "en": "Disagree",
-        "de": "Stimme nicht zu",
-        "ko": "동의하지 않음",
-        "ru": "Скорее не согласен"
+        "de": "Biraz Katılmıyorum",
     },
     "quiz-strongly-disagree": {
         "en": "Strongly Disagree",
-        "de": "Stimme überhaupt nicht zu",
-        "ko": "결코 동의하지 않음",
-        "ru": "Полностью не согласен"
+        "de": "Kesinlikle Katılmıyorum",
     },
     "quiz-back": {
         "de": "back",
-        "de": "Zurück",
-        "ko": "뒤로",
-        "ru": "Назад"
+        "de": "Geri",
     },
     "quiz-question-of": {
         en(qn, questions) {return `Question ${qn + 1} of ${questions.length}`},
-        de(qn, questions) {return `Frage ${qn +1} von ${questions.length}`},
-        ko(qn, questions) {return `${questions.length}개 질문 중 ${qn +1} 번째`},
-        ru(qn, questions) {return `Вопрос ${qn + 1} из ${questions.length}`}
+        tr(qn, questions) {return `Frage ${qn +1} von ${questions.length}`},
     },
     // instructions.html
     "inst-h2": {
         "en": "Instructions",
-        "de": "Instruktionen",
-        "ko": "소개",
-        "ru": "Инструкция"
+        "de": "Talimatlar",
     },
     "inst-p": {
         "en": "You will be presented with a series of statements. For each one, click the button with your opinion on it.",
-        "de": "Sie erhalten eine Reihe von Stellungnahmen. Klicken Sie jeweils auf die Schaltfläche mit Ihrer Meinung dazu.",
-        "ko": "당신은 일련의 질문들을 받게 될 것입니다. 해당되는 답변을 클릭하세요.",
-        "ru": "Вам будет предложен ряд утверждений. Для каждого нажмите на кнопку с вашим мнением о нём."
+        "de": "Birtakım ifadeler ile karşılaşacaksınız. Her ifade için düşüncenizi belirten kutucuğa tıklayınız.",
     },
     "inst-gotit": {
         "en": "Got it!",
-        "de": "Verstanden",
-        "ko": "알겠습니다",
-        "ru": "Понял!"
+        "de": "Tamamdır!",
     },
     "inst-nvm": {
         "en": "Wait, nevermind!",
-        "de": "Warte, vergiss es!",
-        "ko": "그만둘래요.",
-        "ru": "Вернуться"
+        "de": "Aman, boşver!",
     },
     // results.html
     "result-h1": {
         "en": "Results",
-        "de": "Ergebnisse",
-        "ko": "결과",
-        "ru": "Результаты"
+        "de": "Sonuşlar",
     },
     "result-url": {
         "en": "<br>You can send these results by copying and pasting the URL at the top of the page or using the image below.",
-        "de": "<br>Sie können diese Ergebnisse senden, indem Sie die URL oben auf der Seite kopieren und einfügen oder das folgende Bild verwenden.",
-        "ko": "<br>당신은 상단의 URL을 복사하거나 아래 이미지를 이용해 설문 결과를 공유할 수 있습니다.",
-        "ru": "<br>Вы можете отправить эти результаты, скопировав и вставив URL в верхней части страницы или используя изображение ниже."
+        "de": "<br>Bu sonuçları yukarıdaki URL'yi kopyalayıp yapıştırarak veya alttaki görseli kullanarak paylaşabilirsiniz.",
     },
     "result-h2-match": {
         "en": "Closest Match: <span class='weight-300' id='ideology-label'> </span>",
-        "de": "Höchste Übereinstimmung: <span class='weight-300' id='ideology-label'> </span>",
-        "ko": `가장 일치하는 성향: <span class="weight-300" id="ideology-label"> </span>`,
-        "ru": "Ближайшее совпадение: <span class='weight-300' id='ideology-label'> </span>"
+        "de": "En Yakın Sonuç: <span class='weight-300' id='ideology-label'> </span>",
     },
     "result-h2-next-matches": {
         "en": "Next closest matches",
-        "de": "Nächst höchste Überstimmungen",
-        "ko": "다음으로 일치하는 성향",
-        "ru": "Следующие ближайшие совпадения"
+        "de": "Diğer yakın sonuçlar",
     },
     "next-matches-percent": {
         "en": "With your closest match as 100% and farthest as 0%, here is how closely you matched the other ideologies.",

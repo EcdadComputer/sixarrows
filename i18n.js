@@ -18,11 +18,6 @@ const userLang = getCookie("lang") || navigator.language || navigator.userLangua
 setBodyClassUserLang(userLang)
 
 const languages = [
-    {
-        "name": "english",
-        "code": "en"
-    },
-]
 const i18n = {
     getString(name, arguments=null) {
         if (userLang in i18n[name]) {

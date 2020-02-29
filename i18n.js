@@ -68,7 +68,7 @@ const i18n = {
         "de": "Kesinlikle Katılmıyorum",
     },
     "quiz-back": {
-        "de": "back",
+        "en": "back",
         "de": "Geri",
     },
     "quiz-question-of": {
@@ -116,13 +116,13 @@ const i18n = {
         "ru": "С вашим самым близким соответствием в 100% и самым дальним на 0%, вот как близко вы подходите к другим идеологиям."
     },
     "result-h2-score": {
-        "en": "I don't like my scores!",
+        "en": "Sonuçlarımı beğenmedim!",
         "de": "Ich mag meine Ergebnisse nicht",
         "ko": "제 결과가 마음에 들지 않습니다.",
         "ru": "Мне не нравятся мои результаты!"
     },
     "result-issues": {
-        "en": "Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. If you have any suggestions or constructive criticism please fill out this <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>short form</a> or open an issue on the <a href='https://github.com/LeftValues/leftvalues.github.io'>GitHub Page</a>.",
+        "en": "</a><a href='https://github.com/LeftValues/leftvalues.github.io'>GitHub Page</a>.",
         "de": "Bitte denken Sie daran, dass Sie in keiner der Kategorien eine 100%-ige Punktzahl erzielen möchten. Ziel des Quiz ist es, Ihre Ansichten zu hinterfragen. Wenn Sie Anregungen oder konstruktive Kritik haben, füllen Sie bitte dieses <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>Kurzformular</a> aus oder öffnen Sie ein Problem auf der <a href='https://github.com/LeftValues/leftvalues.github.io'>GitHub-Seite</a>.",
         "ko": `어떠한 범주에서든 100%의 점수를 얻을 수 없다는 것을 기억하십시오. 이 설문의 목적은 당신 자신의 관점에 직면하는 것에 있습니다. 의견이나 건설적인 비판은 <a href="https://forms.gle/6WZYMb5GXkkDLhxr5">이 양식</a>이나 <a href="https://github.com/LeftValues/leftvalues.github.io">GitHub Page</a>의 이슈를 통해 개진할 수 있습니다.`,
         "ru": "Пожалуйста, помните, что вы не намерены получить 100%-ый результат ни в одной из осей. Смысл викторины заключается в том, чтобы оспорить ваши взгляды. Если у вас какие-либо предложения или конструктивная критика, то, пожалуйста, заполните эту <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>короткую форму</a> или откройте вкладку ''issue'' на <a href='https://github.com/LeftValues/leftvalues.github.io'>странице GitHub</a>."
@@ -211,8 +211,8 @@ const i18n = {
         "ru": "За что отвечают значения?"
     },
     "index-sixaxes": {
-        "en": "There are currently seven axes, each of which has two opposing values. They are:",
-        "de": "Derzeit gibt es sechs Achsen, von denen jede zwei entgegengesetzte Werte hat. Sie sind:",
+        "en": "There are currently six axes, each of which has two opposing values. They are:",
+        "de": "Şu an 6 tane ok var, bunlar:",
         "ko": "현재 6개의 축이 있습니다. 각각의 축은 아래와 같은 상반되는 두 개의 가치를 갖게 됩니다.:",
         "ru": "Есть семь независимых осей, и каждая имеет две противоположные ценности, присвоенные им."
     },

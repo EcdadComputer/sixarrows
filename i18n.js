@@ -9,9 +9,6 @@ function setCookie (cname, cvalue, exhours) {
     let expires = 'expires=' + d.toUTCString()
     document.cookie = cname + '=' + cvalue + ';' + expires + ';path=/'
 }
-function setBodyClassUserLang(userLang) {
-  document.getElementsByTagName('body')[0].classList.add(`__i18n-${userLang}`)
-}
 
 const langElements = document.querySelectorAll('[data-i18n]')
 const userLang = getCookie("lang") || navigator.language || navigator.userLanguage
@@ -185,7 +182,7 @@ const i18n = {
         "ru": "Что такое SixAxes?"
     },
     "index-p-answer": {
-        "en": "Sixarrows is a Kemalist quiz inspired by and cloned upon the <a href="https://leftvalues.github.io/">LeftValues</a> quiz that seeks to identify your position within the 6 Pillars of Kemalism. If you are not a Kemalist, or don't like Kemalists, this quiz is obviously not suited for you. You will be presented with a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. The questions for each axes are presented in order, rather than scattered. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!" + 
+        "en": "Sixarrows is a Kemalist quiz inspired by and cloned upon the https://leftvalues.github.io quiz that seeks to identify your position within the 6 Pillars of Kemalism. If you are not a Kemalist, or don't like Kemalists, this quiz is obviously not suited for you. You will be presented with a statement, and then you will ancores. The questions for each axes are presented in order, rather than scattered. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!" + 
         "If you are not a kemalist, this quiz is obviously not suited for you. You will be presented with a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. The questions for each axes are presented in order, rather than scattered. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br/><br/>" +
         "There are <b><u><span id='numOfQuestions'></span></u></b> questions in the test.",
         "de": "SixAxes <a href='https://leftvalues.github.io/'>LeftValues</a> isimli Sol siyasi testin yandan yemiş ve Kemalizm ile ilgili olanıdır." +

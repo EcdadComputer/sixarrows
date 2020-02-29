@@ -19,6 +19,10 @@ const languages = [
         "name": "english",
         "code": "en"
     },
+	    {
+        "name": "deas",
+        "code": "de"
+    },
 ]
 const i18n = {
     getString(name, arguments=null) {
@@ -33,7 +37,7 @@ const i18n = {
         }
         return i18n[name]["en"]  
     },
-    "lang": userLang,
+    "lang": "en",
     // quiz.html
     "quiz-loading": {
         "de": "Bekleyiniz...",

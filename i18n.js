@@ -22,10 +22,6 @@ const languages = [
         "name": "english",
         "code": "en"
     },
-    {
-        "name": "turkish",
-        "code": "de"
-    },
 ]
 const i18n = {
     getString(name, arguments=null) {

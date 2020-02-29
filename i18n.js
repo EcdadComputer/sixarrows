@@ -36,7 +36,7 @@ const i18n = {
         }
         return i18n[name]["en"]  
     },
-    "lang": userLang,
+    "en": userLang,
     // quiz.html
     "quiz-loading": {
         "km": "Laden…",

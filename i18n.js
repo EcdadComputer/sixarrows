@@ -85,7 +85,7 @@ const i18n = {
     },
     "quiz-question-of": {
         en(qn, questions) {return `Question ${qn + 1} of ${questions.length}`},
-        tr(qn, questions) {return `${questions.length}} sorudan {return `${qn +1} numaralı soru`},
+        tr(qn, questions) {return ` ${questions.length} sorudan ${qn + 1} numaralı soru`},
         ko(qn, questions) {return `${questions.length}개 질문 중 ${qn +1} 번째`},
         ru(qn, questions) {return `Вопрос ${qn + 1} из ${questions.length}`}
     },

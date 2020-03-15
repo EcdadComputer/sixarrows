@@ -243,8 +243,8 @@ const i18n = {
     "index-rev-desc": {
         "en": "<b style='color:#890000;'>Revolution</b> <b>vs.</b> <b style='color:#FC5959;'>Reform</b><br/>" +
         "Those with a higher revolution score tend to support a radical and rapid overthrow of the capitalist system through a mass uprising. Those with a higher reform score tend to favor inducing gradual changes within capitalist structures, such as liberal democracy, with the eventual goal of reaching socialism.",
-        "tr": "<b style='color:#BC4040;">Cumhuriyetçilik</b> <b>vs.</b> <b style="color:#602600;" +
-        "Cumhuriyet; egemenliğin halkta olduğu devlet yönetimi demektir. Cumhuriyet, demokrasinin bir uygulama şekli olup, halkın kendi kendini yöneterek, yönetimde söz sahibi olduğu rejim demektir. Cumhuriyetçilik ise devlet yönetiminde cumhuriyetin bulunması demektir. Arapçada halk demek olan "cumhur" kelimesinden gelir. Bu bakımdan, halk ve yönetim kelimelerinin bir araya geldiği "demos" ve "kratos", yani demokrasi sözcüğünün eş anlamlısı kabul edilebilir..",
+        "tr": "<b style='color:#BC4040;'>Cumhuriyetçilik</b> <b>vs.</b> <b style='color:#602600;' +
+        "Cumhuriyet; egemenliğin halkta olduğu devlet yönetimi demektir. Cumhuriyet, demokrasinin bir uygulama şekli olup, halkın kendi kendini yöneterek, yönetimde söz sahibi olduğu rejim demektir. Cumhuriyetçilik ise devlet yönetiminde cumhuriyetin bulunması demektir. Arapçada halk demek olan 'cumhur' kelimesinden gelir. Bu bakımdan, halk ve yönetim kelimelerinin bir araya geldiği 'demos" ve "kratos', yani demokrasi sözcüğünün eş anlamlısı kabul edilebilir.,
         "ko": `<b style="color:#890000;">혁명</b> <b>vs.</b> <b style="color:#FC5959;">개혁</b><br/>
         혁명 점수가 높은 사람들은 대중 봉기를 통한 자본주의체제의 급진적이고 빠른 전복을 지지하는 경향이 있습니다. 개혁 점수가 높은 사람들은 자유주의 민주주의와 같은 자본주의 구조 내에서 점진적으로 사회주의에 도달하려는 목표를 가지고 변화를 유도하는 경향이 있습니다.`,
         "ru": "<b style='color:#890000;'>Революция</b> <b>vs.</b> <b style='color:#FC5959;'>Реформы</b><br/>" +

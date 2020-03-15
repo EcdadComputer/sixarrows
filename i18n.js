@@ -243,7 +243,7 @@ const i18n = {
     "index-rev-desc": {
         "en": "<b style='color:#890000;'>Revolution</b><br/>" +
         "Those with a higher revolution score tend to support a radical and rapid overthrow of the capitalist system through a mass uprising. Those with a higher reform score tend to favor inducing gradual changes within capitalist structures, such as liberal democracy, with the eventual goal of reaching socialism.",
-        "tr": "<b style='color:#BC4040;'>Cumhuriyetçilik</b>" +
+        "tr": "<b style='color:#BC4040;'>Cumhuriyetçilik: </b>" +
         "Cumhuriyet; egemenliğin halkta olduğu devlet yönetimi demektir. Cumhuriyet, demokrasinin bir uygulama şekli olup, halkın kendi kendini yöneterek, yönetimde söz sahibi olduğu rejim demektir. Cumhuriyetçilik ise devlet yönetiminde cumhuriyetin bulunması demektir. Arapçada halk demek olan 'cumhur' kelimesinden gelir. Bu bakımdan, halk ve yönetim kelimelerinin bir araya geldiği 'demos' ve 'kratos', yani demokrasi sözcüğünün eş anlamlısı kabul edilebilir.",
         "ru": "<b style='color:#890000;'>Революция</b> <b>vs.</b> <b style='color:#FC5959;'>Реформы</b><br/>" +
         "Те, кто имеет более высокий балл Революции, склонны поддерживать радикальное и быстрое свержение капиталистической системы посредством массового восстания. Те, кто имеет более высокий балл Реформ, склонны выступать за постепенные изменения внутри капиталистических структур, таких как либеральная демократия, с конечной целью достижения социализма."
@@ -251,7 +251,7 @@ const i18n = {
     "index-sci-desc": {
         "en": "<b style='color:#88232B;'>Scientific</b> <b>vs.</b> <b style='color:#7F0037;'>Utopian</b><br/>" +
         "Those with a higher scientific score tend to support or sympathize with the Marxist analysis of society along the lines of dialectical materialism. Those with a higher utopian score tend to believe in a more idealistic analysis of society and reject materialist approaches.",
-        "tr": "<b style='color:#B21018;'>Halkçılık</b>" +
+        "tr": "<b style='color:#B21018;'>Halkçılık: </b>" +
         "Halkçılık ilkesi, ulusal egemenliği ön planda tutar ve demokrasiyi benimser. Devlet, vatandaşın refah ve mutluluğunu amaçlar. Vatandaşlar arasında iş bölümü ve dayanışmayı öngörür. Ulusun devlet hizmetlerinden eşit bir şekilde yararlanmasını sağlar. Atatürk’ün halkçılık ilkesinden anlaşılan; toplumda hiçbir kimseye, zümreye ya da herhangi bir sınıfa ayrıcalık tanınmamasıdır. Herkes kanun önünde eşittir. Halkçılık ilkesine göre; hiçbir kimse başkalarına karşı din, dil, ırk, mezhep veya ekonomik açıdan üstünlük sağlayamaz.",
         "ko": `<b style="color:#560000;">중앙집권주의</b> <b>vs.</b> <b style="color:#000000;">분권주의</b><br/> 중앙집권주의 점수가 높은 사람들은 중앙집중식 국가계획을 기반한 경제 구조를 지지하는 경향이 있습니다. 분권주의 점수가 높은 사람들은 분산계획을 중심으로 한 경제 구조를 지지하는 경향이 있습니다.`,
         "ru": "<b style='color:#560000;'>Централизация</b> <b>vs.</b> <b style='color:#000000;'>Децентрализация</b><br/>" + 
@@ -260,7 +260,7 @@ const i18n = {
     "index-cent-desc": {
         "en": "<b style='color:#560000;'>Central</b> <b>vs.</b> <b style='color:#000000;'>Decentral</b><br/>" + 
         "Those with a higher central score tend to support an economic structure based around centralized national planning. Those with a higher decentral score tend to support an economic structure based around decentralized planning, usually on a more localized scale.",
-        "tr": "<b style='color:#560000;'>Devletçilik</b>" + 
+        "tr": "<b style='color:#560000;'>Devletçilik: </b>" + 
         "Atatürk'e göre millet; geçmişte bir arada yaşamış, bir arada yaşayan, gelecekte de bir arada yaşama inancında ve kararında olan, aynı vatana sahip, aralarında dil, kültür ve duygu birliği olan insanlar topluluğudur. Atatürk ve Türk ulusu sayesinde Türkiye Cumhuriyeti kuruldu ve bu sayede milliyetçilik ilkesi de ortaya koyulmuştur. Atatürk'ün tanımladığı milliyetçilik, din ve ırk ayrımı gözetmeksizin, ulus tanımını dil, kültür ve siyasi birliktelik değerlerine dayandıran milliyetperverlik anlayışıdır.",
         "ko": `<b style="color:#560000;">중앙집권주의</b> <b>vs.</b> <b style="color:#000000;">분권주의</b><br/> 중앙집권주의 점수가 높은 사람들은 중앙집중식 국가계획을 기반한 경제 구조를 지지하는 경향이 있습니다. 분권주의 점수가 높은 사람들은 분산계획을 중심으로 한 경제 구조를 지지하는 경향이 있습니다.`,
         "ru": "<b style='color:#560000;'>Централизация</b> <b>vs.</b> <b style='color:#000000;'>Децентрализация</b><br/>" + 
@@ -269,7 +269,7 @@ const i18n = {
     "index-int-desc": {
         "en": "<b style='color:#782F52;'>International</b> <b>vs.</b> <b style='color:#7F3300;'>National</b><br/>" +
         "Those with a higher international score tend to support forming an international socialist movement, often with the eventual goal of abolishing nations. Those with a higher national score tend to prioritize building socialism within existing borders and reject the goal of a world socialist republic.",
-        "tr": "<b style='color:#004C7F;'>Milliyetçilik</b>" + 
+        "tr": "<b style='color:#004C7F;'>Milliyetçilik: </b>" + 
         "Atatürk'e göre millet; geçmişte bir arada yaşamış, bir arada yaşayan, gelecekte de bir arada yaşama inancında ve kararında olan, aynı vatana sahip, aralarında dil, kültür ve duygu birliği olan insanlar topluluğudur. Atatürk ve Türk ulusu sayesinde Türkiye Cumhuriyeti kuruldu ve bu sayede milliyetçilik ilkesi de ortaya koyulmuştur. Atatürk'ün tanımladığı milliyetçilik, din ve ırk ayrımı gözetmeksizin, ulus tanımını dil, kültür ve siyasi birliktelik değerlerine dayandıran milliyetperverlik anlayışıdır.",
         "ko": `<b style="color:#782F52;">세계</b> <b>vs.</b> <b style="color:#7F3300;">국가</b><br/> 세계주의 점수가 높은 사람들은 종종 국가를 폐지하겠다는 궁극적 목표를 가지고 국제 사회주의 운동을 지원하는 경향이 있습니다. 높은 국가주의 점수를 받은 사람들은 기존 국경 내에서 사회주의 구축을 우선하고 국제 사회주의 공화국의 목표는 거부하는 경향이 있습니다.`,
         "ru": "<b style='color:#782F52;'>Интернационализм</b> <b>vs.</b> <b style='color:#7F3300;'>Национализм</b><br/>" +
@@ -278,7 +278,7 @@ const i18n = {
     "index-party-desc": {
         "en": "<b style='color:#963B33;'>Party</b> <b>vs.</b> <b style='color:#7F333B;'>Union</b><br/>" +
         "Those with a higher party score tend to favor using political parties as the basis of a socialist movement. Those with a higher union score tend to favor using trade unions and other forms of mass organization as a basis of a socialist movement. Being pro-party does not necessarily mean you oppose unions and vice versa, it is more about preference.",
-        "tr": "<b style='color:#5C3396;'>Laiklik</b>" +
+        "tr": "<b style='color:#5C3396;'>Laiklik: </b>" +
         "Laiklik, devletin vatandaşlarıyla olan ilişkilerinde inançlara göre ayrım yapmaması ve ayrıca, herhangi bir inancın, özellikle de bir toplumda egemen olan inancın, aynı toplumda azınlıkların benimsediği inançlara baskı yapmasını önlemesi demektir. Diğer bir tanımlamayla da devlet yönetiminde herhangi bir dinin referans alınmamasını ve devletin dinler karşısında tarafsız olmasını savunan prensiptir ki devlet düzeninin, eğitim kurumlarının ve hukuk kurallarının dine değil, akla ve bilime dayandırılmasını amaçlar. Ayrıca, din işlerini kişinin vicdanına bırakarak bireyin din özgürlüğünü koruyabilmesini sağlar.",
         "ko": `<b style="color:#963B33;">정당</b> <b>vs.</b> <b style="color:#7F333B;">조합</b><br/> 정당주의 점수가 높은 사람들은 정당을 사회주의 운동의 기초로 삼는 것을 선호하는 경향이 있습니다. 조합주의 점수가 높은 사람들은 조합과 다른 형태의 대중조직을 사회주의 운동의 기초로 삼는 것을 좋아합니다. 정당이라고 해서 반드시 조합에 반대한다는 의미는 아니며 그 반대 또한 마찬가지입니다.`,
         "ru": "<b style='color:#963B33;'>Партия</b> <b>vs.</b> <b style='color:#7F333B;'>Профсоюзы</b><br/>" +
@@ -287,7 +287,7 @@ const i18n = {
     "index-cons-desc": {
         "en": "<b style='color:#27577A;'>Conservative</b> <b>vs.</b> <b style='color:#C4A717;'>Progressive</b><br/>" +
         "Those with a higher conservative score tend to favor more socially conservative policies and views. Those with a higher progressive score tend to support more socially progressive policies and views.",
-        "tr": "<b style='color:#C45617;'>İnkılapçılık</b>" +
+        "tr": "<b style='color:#C45617;'>İnkılapçılık: </b>" +
         "İnkılapçılık (Devrimcilik), Türk ulusunun çağdaşlaşması yolunda yapılan Atatürk devrimlerinin benimsenmesi, geliştirilmesi ve her türlü tehlikelere karşı korunmasıdır. Bu ilke, seçkinciliği açıkça yansıyan, halkla bütünleşmeye ve dolayısıyla demokratik yöntemlere büyük önem veren Türk milliyetçisi bir devrimcilik anlayışıdır. Kemalist Devrimcilik anlayışının iki yanı bulunur. Birinci yanı, eski düzenin geçerliliğini yitirmiş kurumlarını yıkıp, yerlerine çağın gereksinimlerini karşılayacak kurumları koymakla ilgilidir. Ama Kemalizm, bununla yetinmemekte, devrimciliği aynı zamanda sürekli olarak yeniliklere, değişimlere açıklık biçiminde anlatmakta ve kalıplaşmaya karşı çıkmaktadır.",
         "ko": `<b style="color:#27577A;">보수</b> <b>vs.</b> <b style="color:#C4A717;">진보</b><br/> 보수주의 점수가 높은 사람들은 사회적으로 보수적인 정책과 견해를 선호하는 경향이 있습니다. 진보주의 점수가 높은 사람들은 사회적으로 진보적인 정책과 견해를 지지하는 경향이 있습니다.`,
         "ru": "<b style='color:#27577A;'>Консерватизм</b> <b>vs.</b> <b style='color:#C4A717;'>Прогрессивизм</b><br/>" +

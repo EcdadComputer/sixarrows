@@ -216,7 +216,7 @@ const i18n = {
         "en": "LeftValues is a leftist quiz inspired by and based upon the <a href='https://8values.github.io/'>8values</a> quiz that seeks to identify your position on the left-wing spectrum. " + 
         "If you are not a leftist, this quiz is obviously not suited for you. You will be presented with a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. The questions for each axes are presented in order, rather than scattered. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br/><br/>" +
         "There are <b><u><span id='numOfQuestions'></span></u></b> questions in the test.",
-        "tr": "SixArrows testi, <a href="https://leftvalues.github.io/">LeftValues</a> testinden ilham alınmış ve kopya çekilmiş olan, sizi Atatürkçülüğün altı ilkesi doğrultusunda test eden bir siyasi kişilik testidir." +
+        "tr": "SixArrows testi, <a href='https://leftvalues.github.io/'>LeftValues</a> testinden ilham alınmış ve kopya çekilmiş olan, sizi Atatürkçülüğün altı ilkesi doğrultusunda test eden bir siyasi kişilik testidir." +
         "Eğer bir Atatürkçü olduğunuzu düşünmüyorsanız büyük ihtimalle bu test size göre değil. Birtakım ifadeler ile karşılaşacaksınız, bunlara <b>Kesinlikle Katılıyorum</b>'dan <b>Kesinlikle Katılmıyorum</b>'a kadar verilen cevapları işaretlemeniz gerekmektedir. Her cevap sizin sonuçlarınızı etkileyecektir. Her ilkenin soruları dağıtılmak yerine sırasıyla verilmiştir. Testin sonunda cevaplarınız çıkacaktır. Dürüstçe cevaplayınız!, <br/> <br/>"+
         "Testte <b><u><span id='numOfQuestions'></span></u></b> soru vardır..",
         "ko": `LeftValues는 <a href="https://8values.github.io/">8values</a>의 영감을 받아 좌익 스펙트럼 상에서 당신의 위치를 파악하기 위해 만들어진 좌익 설문입니다. 만약 당신이 좌파가 아니라면, 이 설문은 당신에게 적합하지 않을 것입니다.
@@ -286,15 +286,6 @@ const i18n = {
         "ru": "<b style='color:#963B33;'>Партия</b> <b>vs.</b> <b style='color:#7F333B;'>Профсоюзы</b><br/>" +
         "Те, кто имеет более высокий балл Партии, склонны отдавать предпочтение использованию политических партий в качестве основы социалистического движения. Те, кто имеет более высокий балл Профсоюзов, склонны отдавать предпочтение использованию профсоюзов и других форм массовой организации как основы социалистического движения. Быть пропартийным не обязательно означает выступать против профсоюзов, и наоборот, речь идёт скорее о предпочтениях."
     },
-    "index-prod-desc": {
-        "en": "<b style='color:#804E00;'>Production</b> <b>vs.</b> <b style='color:#76890B;'>Nature</b><br/>" +
-        "Those with a higher production score tend to prioritize industrial output and self-sustainability over ecological goals. Those with a higher nature score tend to support an environmentally oriented economy with strict ecological protections.",
-        "tr": "<b style='color:#804E00;'>Produktion</b> <b>vs.</b> <b style='color:#76890B;'>Ökologie</b><br/>" +
-        "Diejenigen mit einem höheren Produktionsfaktor tendieren dazu, die Industrieproduktion und die Selbstverträglichkeit vor ökologischen Zielen zu priorisieren. Diejenigen mit einem höheren ökologischen Faktor tendieren dazu, eine umweltorientierte Wirtschaft mit strengen ökologischen Schutzmaßnahmen zu unterstützen.",
-        "ko": `<b style="color:#804E00;">생산</b> <b>vs.</b> <b style="color:#76890B;">생태</b><br/> 생산주의 점수가 높을 수록 생태학적 목표보다 산업 생산량과 산업의 지속가능성을 우선시하는 경향이 있습니다. 높은 생태주의 점수를 가진 사람들은 엄격한 생태 보호를 통한 환경 지향적 경제를 지지하는 경향이 있습니다.`,
-        "ru": "<b style='color:#804E00;'>Производство</b> <b>vs.</b> <b style='color:#586808;'>Природа</b><br/>" +
-        "Те, кто имеет более высокий балл Производства, склонны отдавать предпочтение промышленному производству и самообеспеченности перед экологическими целями. Те, кто имеет более высокий балл Природы, имеют тенденцию поддерживать экологически ориентированную экономику со строгой экологической защитой."
-    },
     "index-cons-desc": {
         "en": "<b style='color:#27577A;'>Conservative</b> <b>vs.</b> <b style='color:#C4A717;'>Progressive</b><br/>" +
         "Those with a higher conservative score tend to favor more socially conservative policies and views. Those with a higher progressive score tend to support more socially progressive policies and views.",
@@ -318,7 +309,7 @@ const i18n = {
     },
     "index-h2-scores": {
         "en": "I don't like my scores!",
-        "tr": "Ich mag meine Ergebnisse nicht!",
+        "tr": "Sonuçlarımı beğenmedim!",
         "ko": "제 점수가 마음에 들지 않습니다",
         "ru": "Мне не нравятся мои результаты!"
     },
@@ -330,13 +321,13 @@ const i18n = {
     },
     "index-h2-tracked": {
         "en": "Am I being tracked?",
-        "tr": "Werde ich getracked?",
+        "tr": "MİT beni takip mi ediyor?",
         "ko": "제가 추적되고 있습니까?",
         "ru": "За мной следят?"
     },
     "index-p-tracked": {
         "en": "LeftValues does utilize very basic tracking to get an idea of the amount of visitors. No personal information is collected and answers/results are not saved. If you do not believe me, the code is open source and available for all to see. For transparency purposes, the collected data for the first week since release can be viewed on this <a href='https://docs.google.com/document/d/1pcnZdMkEmGXgLMS8izvqd_JEcgjuFgUnfqCRO32q2go/edit?usp=sharing'>Google Document</a>.",
-        "tr": "LeftValues verwendet ein sehr einfaches Tracking, um sich einen Überblick über die Anzahl der Besucher zu verschaffen. Es werden keine persönlichen Informationen gesammelt und Antworten/Ergebnisse werden nicht gespeichert. Wenn Sie mir nicht glauben, ist der Code Open Source und für alle sichtbar.",
+        "tr": "Hayır.",
         "ko": `LeftValues는 방문자 수를 파악하기 위해 매우 기본적인 추적 기능을 사용하고 있습니다. 개인 정보는 수집되지 않으며 응답과 결과는 저장되지 않습니다. 이 서비스를 위해 사용한 코드는 모든 사람들에게 오픈되어 있으므로 만일 당신이 우릴 믿지 못하겠다면 살펴볼 수 있습니다. 우리가 수집하는 정보의 투명성을 위해 이 서비스가 오픈된 지 첫 주동안 수집된 데이터를 <a href="https://docs.google.com/document/d/1pcnZdMkEmGXgLMS8izvqd_JEcgjuFgUnfqCRO32q2go/edit?usp=sharing">Google Document</a>에 공개해두었습니다.`,
         "ru": "LeftValues использует очень простое отслеживание, чтобы получить представление о количестве посетителей. Личная информация не собирается, а ответы/результаты не сохраняются. Если вы нам не верите, код открыт и доступен для всех. В целях обеспечения прозрачности, собранные данные за первую неделю с момента выпуска можно просмотреть в этом <a href='https://docs.google.com/document/d/1pcnZdMkEmGXgLMS8izvqd_JEcgjuFgUnfqCRO32q2go/edit?usp=sharing'>Гугл-документе</a>."
     }

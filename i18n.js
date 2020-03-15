@@ -260,7 +260,7 @@ const i18n = {
     "index-cent-desc": {
         "en": "<b style='color:#560000;'>Central</b> <b>vs.</b> <b style='color:#000000;'>Decentral</b><br/>" + 
         "Those with a higher central score tend to support an economic structure based around centralized national planning. Those with a higher decentral score tend to support an economic structure based around decentralized planning, usually on a more localized scale.",
-        "tr": "<b style='color:#560000;'>Devletçilik</b><b>" + 
+        "tr": "<b style='color:#560000;'>Devletçilik</b>" + 
         "Atatürk'e göre millet; geçmişte bir arada yaşamış, bir arada yaşayan, gelecekte de bir arada yaşama inancında ve kararında olan, aynı vatana sahip, aralarında dil, kültür ve duygu birliği olan insanlar topluluğudur. Atatürk ve Türk ulusu sayesinde Türkiye Cumhuriyeti kuruldu ve bu sayede milliyetçilik ilkesi de ortaya koyulmuştur. Atatürk'ün tanımladığı milliyetçilik, din ve ırk ayrımı gözetmeksizin, ulus tanımını dil, kültür ve siyasi birliktelik değerlerine dayandıran milliyetperverlik anlayışıdır.",
         "ko": `<b style="color:#560000;">중앙집권주의</b> <b>vs.</b> <b style="color:#000000;">분권주의</b><br/> 중앙집권주의 점수가 높은 사람들은 중앙집중식 국가계획을 기반한 경제 구조를 지지하는 경향이 있습니다. 분권주의 점수가 높은 사람들은 분산계획을 중심으로 한 경제 구조를 지지하는 경향이 있습니다.`,
         "ru": "<b style='color:#560000;'>Централизация</b> <b>vs.</b> <b style='color:#000000;'>Децентрализация</b><br/>" + 
@@ -269,7 +269,7 @@ const i18n = {
     "index-int-desc": {
         "en": "<b style='color:#782F52;'>International</b> <b>vs.</b> <b style='color:#7F3300;'>National</b><br/>" +
         "Those with a higher international score tend to support forming an international socialist movement, often with the eventual goal of abolishing nations. Those with a higher national score tend to prioritize building socialism within existing borders and reject the goal of a world socialist republic.",
-        "tr": "<b style='color:#004C7F;'>Milliyetçilik</b><b>" + 
+        "tr": "<b style='color:#004C7F;'>Milliyetçilik</b>" + 
         "Atatürk'e göre millet; geçmişte bir arada yaşamış, bir arada yaşayan, gelecekte de bir arada yaşama inancında ve kararında olan, aynı vatana sahip, aralarında dil, kültür ve duygu birliği olan insanlar topluluğudur. Atatürk ve Türk ulusu sayesinde Türkiye Cumhuriyeti kuruldu ve bu sayede milliyetçilik ilkesi de ortaya koyulmuştur. Atatürk'ün tanımladığı milliyetçilik, din ve ırk ayrımı gözetmeksizin, ulus tanımını dil, kültür ve siyasi birliktelik değerlerine dayandıran milliyetperverlik anlayışıdır.",
         "ko": `<b style="color:#782F52;">세계</b> <b>vs.</b> <b style="color:#7F3300;">국가</b><br/> 세계주의 점수가 높은 사람들은 종종 국가를 폐지하겠다는 궁극적 목표를 가지고 국제 사회주의 운동을 지원하는 경향이 있습니다. 높은 국가주의 점수를 받은 사람들은 기존 국경 내에서 사회주의 구축을 우선하고 국제 사회주의 공화국의 목표는 거부하는 경향이 있습니다.`,
         "ru": "<b style='color:#782F52;'>Интернационализм</b> <b>vs.</b> <b style='color:#7F3300;'>Национализм</b><br/>" +

@@ -144,7 +144,6 @@ questions = [
             "c": 0,
             "d": 0,
             "e": 0,
-
             "g": 0
         }
 	},
@@ -320,8 +319,7 @@ questions = [
             "b": 0,
             "c": 0,
             "d": 0,
-            "e": 0,
-            "f": -10,
+            "e": -10,
             "g": 0
         }
     },
@@ -335,8 +333,7 @@ questions = [
             "b": 0,
             "c": 0,
             "d": 0,
-            "e": 0,
-            "f": 5,
+            "e": 5,
             "g": 0
         }
     },
@@ -350,8 +347,7 @@ questions = [
             "b": 0,
             "c": 0,
             "d": 0,
-            "e": 0,
-            "f": 10,
+            "e": 10,
             "g": 0
         }
     },
@@ -365,8 +361,7 @@ questions = [
             "b": 0,
             "c": 0,
             "d": 0,
-            "e": 0,
-            "f": 10,
+            "e": 10,
             "g": 0
         }
     },
@@ -414,7 +409,7 @@ questions = [
         }
     },
     {
-        "question": "Abortion is an immoral act that should be banned or significantly limited.",
+        "question": "'One of the nation's lifeblood artless rest is cut off'.",
         "i18n": {
             "de": "''Sanatsız kalan bir milletin hayat damarlarından biri kopmuş demektir.''",
         },
@@ -440,7 +435,6 @@ questions = [
             "c": 0,
             "d": 0,
             "e": 5,
-
             "g": 10
         }
     },

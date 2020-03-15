@@ -49,172 +49,166 @@ const i18n = {
     },
     "quiz-strongly-agree": {
         "en": "Strongly Agree",
-        "tr": "Stimme voll zu",
+        "tr": "Kesinlikle Katılıyorum",
         "ko": "매우 동의",
         "ru": "Полностью согласен"
     },
     "quiz-agree": {
         "en": "Agree",
-        "tr": "Stimme zu",
+        "tr": "Biraz Katılıyorum",
         "ko": "동의",
         "ru": "Скорее согласен"
     },
     "quiz-neutral": {
         "en": "Neutral/Unsure",
-        "tr": "Neutral/Unsicher",
+        "tr": "Tarafsızım/Kararsızım",
         "ko": "중립/잘 모름",
         "ru": "Не знаю/Не уверен"
     },
     "quiz-disagree": {
-        "en": "Disagree",
+        "en": "Biraz Katılmıyorum",
         "tr": "Stimme nicht zu",
         "ko": "동의하지 않음",
         "ru": "Скорее не согласен"
     },
     "quiz-strongly-disagree": {
         "en": "Strongly Disagree",
-        "tr": "Stimme überhaupt nicht zu",
+        "tr": "Kesinlikle Katılmıyorum",
         "ko": "결코 동의하지 않음",
         "ru": "Полностью не согласен"
     },
     "quiz-back": {
         "tr": "back",
-        "tr": "Zurück",
+        "tr": "geri",
         "ko": "뒤로",
         "ru": "Назад"
     },
     "quiz-question-of": {
         en(qn, questions) {return `Question ${qn + 1} of ${questions.length}`},
-        de(qn, questions) {return `Frage ${qn +1} von ${questions.length}`},
+        tr(qn, questions) {return `${qn +1} sorudan ${questions.length} numaralı soru`},
         ko(qn, questions) {return `${questions.length}개 질문 중 ${qn +1} 번째`},
         ru(qn, questions) {return `Вопрос ${qn + 1} из ${questions.length}`}
     },
     // instructions.html
     "inst-h2": {
         "en": "Instructions",
-        "tr": "Instruktionen",
+        "tr": "Talimatlar",
         "ko": "소개",
         "ru": "Инструкция"
     },
     "inst-p": {
         "en": "You will be presented with a series of statements. For each one, click the button with your opinion on it.",
-        "tr": "Sie erhalten eine Reihe von Stellungnahmen. Klicken Sie jeweils auf die Schaltfläche mit Ihrer Meinung dazu.",
+        "tr": "Birtakım ifadeler ile karşılaşacaksınız. Her biri için görüşünüzü belirten tuşa tıklayınız.",
         "ko": "당신은 일련의 질문들을 받게 될 것입니다. 해당되는 답변을 클릭하세요.",
         "ru": "Вам будет предложен ряд утверждений. Для каждого нажмите на кнопку с вашим мнением о нём."
     },
     "inst-gotit": {
         "en": "Got it!",
-        "tr": "Verstanden",
+        "tr": "Anlaşıldı!",
         "ko": "알겠습니다",
         "ru": "Понял!"
     },
     "inst-nvm": {
         "en": "Wait, nevermind!",
-        "tr": "Warte, vergiss es!",
+        "tr": "Neyse, boşver!",
         "ko": "그만둘래요.",
         "ru": "Вернуться"
     },
     // results.html
     "result-h1": {
         "en": "Results",
-        "tr": "Ergebnisse",
+        "tr": "Sonuçlar",
         "ko": "결과",
         "ru": "Результаты"
     },
     "result-url": {
         "en": "<br>You can send these results by copying and pasting the URL at the top of the page or using the image below.",
-        "tr": "<br>Sie können diese Ergebnisse senden, indem Sie die URL oben auf der Seite kopieren und einfügen oder das folgende Bild verwenden.",
+        "tr": "<br>Sonuçları yukarıdaki URL adresini kopyalayıp yapıştırarak paylaşabilirsiniz.",
         "ko": "<br>당신은 상단의 URL을 복사하거나 아래 이미지를 이용해 설문 결과를 공유할 수 있습니다.",
         "ru": "<br>Вы можете отправить эти результаты, скопировав и вставив URL в верхней части страницы или используя изображение ниже."
     },
     "result-h2-match": {
         "en": "Closest Match: <span class='weight-300' id='ideology-label'> </span>",
-        "tr": "Höchste Übereinstimmung: <span class='weight-300' id='ideology-label'> </span>",
+        "tr": "En yakın sonuç: <span class='weight-300' id='ideology-label'> </span>",
         "ko": `가장 일치하는 성향: <span class="weight-300" id="ideology-label"> </span>`,
         "ru": "Ближайшее совпадение: <span class='weight-300' id='ideology-label'> </span>"
     },
     "result-h2-next-matches": {
         "en": "Next closest matches",
-        "tr": "Nächst höchste Überstimmungen",
+        "tr": "Diğer en yakın sonuçlar",
         "ko": "다음으로 일치하는 성향",
         "ru": "Следующие ближайшие совпадения"
     },
     "next-matches-percent": {
         "en": "With your closest match as 100% and farthest as 0%, here is how closely you matched the other ideologies.",
-        "tr": "Hier sind die Ideologien mit denen du am meisten übereinstimmst, wo volle Übereinstimmung 100% ist und keine 0%.",
+        "tr": "En yakın sonucunuz %100 ve en uzağı %0 olmak üzere diğer ideolojiler ile ne kadar yakın olduğunuzun listesi.",
         "ko": "당신과 가장 일치하는 성향을 100%로, 가장 일치하지 않는 성향을 0%로 둘 때, 아래 사상들은 당신의 성향에 가까운 다른 다른 사상들 입니다.",
         "ru": "С вашим самым близким соответствием в 100% и самым дальним на 0%, вот как близко вы подходите к другим идеологиям."
     },
     "result-h2-score": {
         "en": "I don't like my scores!",
-        "tr": "Ich mag meine Ergebnisse nicht",
+        "tr": "Sonuçlarımı beğenmedim!",
         "ko": "제 결과가 마음에 들지 않습니다.",
         "ru": "Мне не нравятся мои результаты!"
     },
     "result-issues": {
         "en": "Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. If you have any suggestions or constructive criticism please fill out this <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>short form</a> or open an issue on the <a href='https://github.com/LeftValues/leftvalues.github.io'>GitHub Page</a>.",
-        "tr": "Bitte denken Sie daran, dass Sie in keiner der Kategorien eine 100%-ige Punktzahl erzielen möchten. Ziel des Quiz ist es, Ihre Ansichten zu hinterfragen. Wenn Sie Anregungen oder konstruktive Kritik haben, füllen Sie bitte dieses <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>Kurzformular</a> aus oder öffnen Sie ein Problem auf der <a href='https://github.com/LeftValues/leftvalues.github.io'>GitHub-Seite</a>.",
+        "tr": "Biz de beğenmedik. Lütfen unutmayın bu test ciddi amaçlarla yapılmamıştır. Ancak testi daha da iyileştirebileceğinizi düşünüyorsanız <a href='https://ecdadcomputer.github.io/sixarrows/'>Github Adresinden</a> konu açabilirsiniz.",
         "ko": `어떠한 범주에서든 100%의 점수를 얻을 수 없다는 것을 기억하십시오. 이 설문의 목적은 당신 자신의 관점에 직면하는 것에 있습니다. 의견이나 건설적인 비판은 <a href="https://forms.gle/6WZYMb5GXkkDLhxr5">이 양식</a>이나 <a href="https://github.com/LeftValues/leftvalues.github.io">GitHub Page</a>의 이슈를 통해 개진할 수 있습니다.`,
         "ru": "Пожалуйста, помните, что вы не намерены получить 100%-ый результат ни в одной из осей. Смысл викторины заключается в том, чтобы оспорить ваши взгляды. Если у вас какие-либо предложения или конструктивная критика, то, пожалуйста, заполните эту <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>короткую форму</a> или откройте вкладку ''issue'' на <a href='https://github.com/LeftValues/leftvalues.github.io'>странице GitHub</a>."
     },
     "result-a-label": {
         "en": ["Extremely Revolutionary","Very Revolutionary","Revolutionary","Neutral","Reformist","Very Reformist","Extremely Reformist"],
-        "tr": ["Extrem Revolutionär", "Sehr Revolutionär", "Revolutionär", "Neutral", "Reformistisch", "Sehr Reformistisch", "Extrem Reformistisch"],
+        "tr": ["Aşırı Cumhuriyetçi", "Çok Cumhuriyetçi", "Cumhuriyetçi", "Tarafsız", "Otoriter", "Çok Otoriter", "Aşırı Otoriter"],
         "ko": ["극단적 혁명주의","강경한 혁명주의","혁명주의","중립","개혁주의","강경한 개혁주의","극단적 개혁주의"],
         "ru": ["Крайне Революционный","Очень Революционный","Революционный","Нейтральный","Реформистский","Очень Реформистский","Крайне Реформистский"]
     },
     "result-b-label": {
         "en": ["Extremely Scientific","Very Scientific","Scientific","Neutral","Utopian","Very Utopian","Extremely Utopian"],
-        "tr": ["Extrem Wissenschaftlich", "Sehr Wissenschaftlich", "Wissenschaftlich", "Neutral", "Utopisch", "Sehr Utopisch", "Extrem Utopisch"],
+        "tr": ["Aşırı Halkçı", "Çok Halkçı", "Halkçı", "Tarafsız", "Az Halkçı", "Çok az Halkçı", "Halkçılık Karşıtı"],
         "ko": ["극단적 과학주의","강경한 과학주의","과학주의","중립","공상주의","강경한 공상주의","극단적 공상주의"],
         "ru": ["Крайне Научный","Очень Научный","Научный","Нейтральный","Утопичный","Очень Утопичный","Крайне Утопичный"]
     },
     "result-c-label": {
         "en": ["Extremely Centralist","Very Centralist","Centralist","Neutral","Decentralist","Very Decentralist","Extremely Decentralist"],
-        "tr": ["Extrem Zentralisiert", "Sehr Zentralisiert", "Zentralisiert", "Neutral", "Dezentralisiert", "Sehr Dezentralisiert", "Extrem Dezentralisiert"],
+        "tr": ["Aşırı Devletçi", "Çok Devletçi", "Devletçi", "Tarafsız", "Piyasacı", "Çok Piyasacı", "Aşırı Piyasacı"],
         "ko": ["극단적 중앙집권주의", "강경한 중앙집권주의", "중앙집권주의", "중립", "분권주의", "강경한 분권주의", "극단적 분권주의"],
         "ru": ["Крайне Централизованный","Очень Централизованный","Централизованный","Нейтральный","Децентрализованный","Очень Децентрализованный","Крайне Децентрализованный"]
     },
     "result-d-label": {
         "en": ["Extremely Internationalist","Very Internationalist","Internationalist","Neutral","Nationalist","Very Nationalist","Extremely Nationalist"],
-        "tr": ["Extrem Internationalistisch", "Sehr Internationalistisch", "Internationalistisch", "Neutral", "Nationalistisch", "Sehr Nationalistisch", "Extrem Nationalistisch"],
+        "tr": ["Aşırı Milliyetçi", "Çok Milliyetçi", "Milliyetçi", "Tarafsız", "Küreselci", "Çok Küreselci", "Aşırı Küreselci"],
         "ko": ["극단적 세계주의","강경한 세계주의","세계주의","중립","국가주의","강경한 국가주의","극단적 국가주의"],
         "ru": ["Крайне Интернациональный","Очень Интернациональный","Интернациональный","Нейтральный","Национальный","Очень Национальный","Крайне Национальный"]
     },
     "result-e-label": {
         "en": ["Extremely Partisan","Very Partisan","Partisan","Neutral","Unionist","Very Unionist","Extremely Unionist"],
-        "tr": ["Extrem Parteiisch", "Sehr Parteiisch", "Parteiisch", "Neutral", "Gewerkschaftlich", "Sehr Gewerkschaftlich", "Extrem Gewerkschaftlich"],
+        "tr": ["Aşırı Laik", "Çok Laik", "Laik", "Neutral", "Dindar", "Çok Dindar", "Aşırı Dindar"],
         "ko": ["극단적 정당주의", "강경한 정당주의", "정당주의", "중립", "조합주의", "강경한 조합주의", "극단적 조합주의"],
         "ru": ["Крайне Партийный","Очень Партийный","Партийный","Нейтральный","Профсоюзный","Очень Профсоюзный","Крайне Профсоюзный"]
     },
-    "result-f-label": {
-        "en": ["Extremely Productivist","Very Productivist","Productivist","Neutral","Ecological","Very Ecological","Extremely Ecological"],
-        "tr": ["Extrem Produktivist", "Sehr Produktivist", "Produktivist", "Neutral", "Ökologisch", "Sehr Ökologisch", "Extrem Ökologisch"],
-        "ko": ["극단적 생산주의", "강경한 생산주의", "생산주의", "중립", "생태주의", "강경한 생태주의", "극단적 생태주의"],
-        "ru": ["Крайне Производственный","Очень Производственный","Производственный","Нейтральный","Экологический","Очень Экологический","Крайне Экологический"]
-    },
     "result-g-label": {
         "en": ["Extremely Conservative","Very Conservative","Conservative","Neutral","Progressive","Very Progressive","Extremely Progressive"],
-        "tr": ["Extrem Konservativ", "Sehr Konservativ", "Konservativ", "Neutral", "Progressiv", "Sehr Progressiv", "Extrem Progressiv"],
+        "tr": ["Aşırı İnkılapçı", "Çok İnkılapçı", "İnkılapçı", "Neutral", "Muhafazakar", "Çok Muhafazakar", "Gerici"],
         "ko": ["극단적 보수주의", "강경한 보수주의", "보수주의", "중립", "진보주의", "강경한 진보주의", "극단적 진보주의"],
         "ru": ["Крайне Консервативный", "Очень Консервативный", "Консервативный", "Нейтральный", "Прогрессивный", "Очень Прогрессивный", "Крайне Прогрессивный"]
     },
     "result-back": {
         "en": "Back",
-        "tr": "Zurück",
+        "tr": "Geri",
         "ko": "뒤로",
         "ru": "Назад"
     },
     // index.html
     "index-b-start": {
         "en": "Click here to start!",
-        "tr": "Klicke hier um anzufangen!",
+        "tr": "Başlamak için Tıkla!!",
         "ko": "클릭해서 시작하기!",
         "ru": "Начать тест"
     },
     "index-h2-whatis" : {
         "en": "What is LeftValues?",
-        "tr": "Was ist LeftValues?",
+        "tr": "SixArrows nedir?",
         "ko": "LeftValues가 무엇입니까?",
         "ru": "Что такое LeftValues?"
     },
@@ -222,9 +216,9 @@ const i18n = {
         "en": "LeftValues is a leftist quiz inspired by and based upon the <a href='https://8values.github.io/'>8values</a> quiz that seeks to identify your position on the left-wing spectrum. " + 
         "If you are not a leftist, this quiz is obviously not suited for you. You will be presented with a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. The questions for each axes are presented in order, rather than scattered. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br/><br/>" +
         "There are <b><u><span id='numOfQuestions'></span></u></b> questions in the test.",
-        "tr": "LeftValues ist ein linkes Quiz, das von dem Quiz <a href='https://8values.github.io/'>8values</a> inspiriert ist und auf diesem basiert und versucht, Ihre Position im linken Spektrum zu bestimmen." +
-        "Wenn Sie kein Linker sind, ist dieses Quiz offensichtlich nicht für Sie geeignet. Ihnen wird eine Erklärung vorgelegt, und Sie werden mit Ihrer Meinung zu den Fragen mit den Antworten <b>Stimme voll zu</b> bis <b>Stimme überhaupt nicht zu</b>, wobei sich jede Antwort geringfügig auf deine Punktzahl auswirkt. Die Fragen für die einzelnen Achsen werden nacheinander und nicht gestreut dargestellt. Am Ende des Quiz werden deine Antworten mit dem für jeden Wert maximal möglichen Wert verglichen. Damit geben Sie einen Prozentsatz. Antworte ehrlich! <br/> <br/>"+
-        "Der Test enthält <b><u><span id='numOfQuestions'></span></u></b> Fragen.",
+        "tr": "SixArrows testi, <a href="https://leftvalues.github.io/">LeftValues</a> testinden ilham alınmış ve kopya çekilmiş olan, sizi Atatürkçülüğün altı ilkesi doğrultusunda test eden bir siyasi kişilik testidir." +
+        "Eğer bir Atatürkçü olduğunuzu düşünmüyorsanız büyük ihtimalle bu test size göre değil. Birtakım ifadeler ile karşılaşacaksınız, bunlara <b>Kesinlikle Katılıyorum</b>'dan <b>Kesinlikle Katılmıyorum</b>'a kadar verilen cevapları işaretlemeniz gerekmektedir. Her cevap sizin sonuçlarınızı etkileyecektir. Her ilkenin soruları dağıtılmak yerine sırasıyla verilmiştir. Testin sonunda cevaplarınız çıkacaktır. Dürüstçe cevaplayınız!, <br/> <br/>"+
+        "Testte <b><u><span id='numOfQuestions'></span></u></b> soru vardır..",
         "ko": `LeftValues는 <a href="https://8values.github.io/">8values</a>의 영감을 받아 좌익 스펙트럼 상에서 당신의 위치를 파악하기 위해 만들어진 좌익 설문입니다. 만약 당신이 좌파가 아니라면, 이 설문은 당신에게 적합하지 않을 것입니다.
         각 문항을 살펴보고 <b>매우 동의함</b>과 <b>결코 동의하지 않음</b> 사이의 답변을 선택하면, 각각의 답변이 당신의 점수에 조금씩 영향을 주게 될 것입니다.
         각 축에 해당하는 문항은 순서대로 표시됩니다.
@@ -236,21 +230,21 @@ const i18n = {
     },
     "index-h2-whatvalues": {
         "en": "What are the values?",
-        "tr": "Was sind die Werte?",
+        "tr": "Buradaki ilkeler nelerdir?",
         "ko": "가치(values)는 무엇입니까?",
         "ru": "За что отвечают значения?"
     },
     "index-sixaxes": {
         "en": "There are currently seven axes, each of which has two opposing values. They are:",
-        "tr": "Derzeit gibt es sechs Achsen, von denen jede zwei entgegengesetzte Werte hat. Sie sind:",
+        "tr": "Atatürkçülüğün altı ilkesi bulunmaktadır, bunlar:",
         "ko": "현재 6개의 축이 있습니다. 각각의 축은 아래와 같은 상반되는 두 개의 가치를 갖게 됩니다.:",
         "ru": "Есть семь независимых осей, и каждая имеет две противоположные ценности, присвоенные им."
     },
     "index-rev-desc": {
         "en": "<b style='color:#890000;'>Revolution</b> <b>vs.</b> <b style='color:#FC5959;'>Reform</b><br/>" +
         "Those with a higher revolution score tend to support a radical and rapid overthrow of the capitalist system through a mass uprising. Those with a higher reform score tend to favor inducing gradual changes within capitalist structures, such as liberal democracy, with the eventual goal of reaching socialism.",
-        "tr": "<b style='color:#890000;'>Revolution</b> <b>vs.</b> <b style='color:#FC5959;'>Reform</b><br/>" +
-        "Diejenigen mit einem höheren Revolutionswert unterstützen tendenziell einen radikalen und raschen Sturz des kapitalistischen Systems durch einen Massenaufstand. Diejenigen mit einem höheren Reformwert tendieren dazu, allmähliche Veränderungen in kapitalistischen Strukturen wie der liberalen Demokratie herbeizuführen, mit dem eventuellen Ziel des Sozialismus.",
+        "tr": "<b style='color:#BC4040;">Cumhuriyetçilik</b> <b>vs.</b> <b style="color:#602600;" +
+        "Cumhuriyet; egemenliğin halkta olduğu devlet yönetimi demektir. Cumhuriyet, demokrasinin bir uygulama şekli olup, halkın kendi kendini yöneterek, yönetimde söz sahibi olduğu rejim demektir. Cumhuriyetçilik ise devlet yönetiminde cumhuriyetin bulunması demektir. Arapçada halk demek olan "cumhur" kelimesinden gelir. Bu bakımdan, halk ve yönetim kelimelerinin bir araya geldiği "demos" ve "kratos", yani demokrasi sözcüğünün eş anlamlısı kabul edilebilir..",
         "ko": `<b style="color:#890000;">혁명</b> <b>vs.</b> <b style="color:#FC5959;">개혁</b><br/>
         혁명 점수가 높은 사람들은 대중 봉기를 통한 자본주의체제의 급진적이고 빠른 전복을 지지하는 경향이 있습니다. 개혁 점수가 높은 사람들은 자유주의 민주주의와 같은 자본주의 구조 내에서 점진적으로 사회주의에 도달하려는 목표를 가지고 변화를 유도하는 경향이 있습니다.`,
         "ru": "<b style='color:#890000;'>Революция</b> <b>vs.</b> <b style='color:#FC5959;'>Реформы</b><br/>" +

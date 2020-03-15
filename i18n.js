@@ -295,7 +295,7 @@ const i18n = {
     },
     "index-h2-closest": {
         "en": "What does \"Closest Match\" mean in the results?",
-        "tr": "Was bedeutet \"Nächste Übereinstimmung\" in den Ergebnissen?",
+        "tr": "",
         "ko": `결과의 "가장 일치하는 성향"이 무엇을 의미합니까?`,
         "ru": "Что означает \"Ближайшее совпадение\" в результатах?"
     },

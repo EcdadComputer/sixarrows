@@ -243,7 +243,7 @@ const i18n = {
     "index-rev-desc": {
         "en": "<b style='color:#890000;'>Revolution</b> <b>vs.</b> <b style='color:#FC5959;'>Reform</b><br/>" +
         "Those with a higher revolution score tend to support a radical and rapid overthrow of the capitalist system through a mass uprising. Those with a higher reform score tend to favor inducing gradual changes within capitalist structures, such as liberal democracy, with the eventual goal of reaching socialism.",
-        "tr": "<b style='color:#BC4040;'>Cumhuriyetçilik</b> <b>vs.</b> <b style='color:#602600;' +
+        "tr": "<b style='color:#BC4040;'>Cumhuriyetçilik</b> <b>vs.</b> <b style='color:#602600;'" +
         "Cumhuriyet; egemenliğin halkta olduğu devlet yönetimi demektir. Cumhuriyet, demokrasinin bir uygulama şekli olup, halkın kendi kendini yöneterek, yönetimde söz sahibi olduğu rejim demektir. Cumhuriyetçilik ise devlet yönetiminde cumhuriyetin bulunması demektir. Arapçada halk demek olan 'cumhur' kelimesinden gelir. Bu bakımdan, halk ve yönetim kelimelerinin bir araya geldiği 'demos' ve 'kratos', yani demokrasi sözcüğünün eş anlamlısı kabul edilebilir.",
         "ru": "<b style='color:#890000;'>Революция</b> <b>vs.</b> <b style='color:#FC5959;'>Реформы</b><br/>" +
         "Те, кто имеет более высокий балл Революции, склонны поддерживать радикальное и быстрое свержение капиталистической системы посредством массового восстания. Те, кто имеет более высокий балл Реформ, склонны выступать за постепенные изменения внутри капиталистических структур, таких как либеральная демократия, с конечной целью достижения социализма."
